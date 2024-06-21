@@ -1,0 +1,27 @@
+{
+  "name": "submissionmlgc-abdur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon ./src/server/server.js",
+    "start": "node ./src/server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.6.0",
+    "@google-cloud/storage": "^7.11.1",
+    "@hapi/hapi": "^21.3.9",
+    "@tensorflow/tfjs-node": "^3.21.1",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "luxon": "^3.4.4",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
